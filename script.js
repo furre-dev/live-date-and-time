@@ -89,4 +89,5 @@ function setClock() {
         seconds.textContent = timeData.getSeconds().toString();
     }
 }
+//makes the site load this function as soon as it starts. Otherways the interval will start 1 second after the site has loaded up.
 setClock();
